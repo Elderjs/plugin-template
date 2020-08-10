@@ -2,7 +2,7 @@
 
 If you are looking to write an [Elder.js](https://elderguide.com/tech/elderjs/) plugin we've setup this template to help streamline that process.
 
-Recommended naming is `elderjs-plugin-` + `your-plugin-name`.
+Recommended naming is `elder-plugin-` + `your-plugin-name`.
 
 Below you'll find recommended minimal documenation. 
 
