@@ -1,0 +1,17 @@
+{
+  "name": "elderjs-plugin-your-feature",
+  "version": "0.0.1",
+  "description": "Easily {do something special} for your Elder.js powered website.",
+  "keywords": [
+    "elder.js",
+    "elderjs",
+    "svelte",
+    "ssg",
+    "static",
+    "site",
+    "generator"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "dependencies": {}
+}
