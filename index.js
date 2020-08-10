@@ -1,5 +1,5 @@
 const plugin = {
-  name: 'elder-plugin-your-plugin',
+  name: 'elderjs-plugin-your-plugin',
   description: `[copy and paste the start of your readme]`,
   init: (plugin) => {
     // this is a sync function that runs on plugin initialization.
