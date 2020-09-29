@@ -29,12 +29,10 @@ const plugin = {
         // if you are looking for details on what a prop or mutation represents you can read this: https://github.com/Elderjs/elderjs/blob/master/src/hookInterface/hookEntityDefinitions.ts
 
         // here is how you'd read the init property set in the init() function
-        if(plugin.init){
-          plugin.bootstrapRan = true;
-          return {
-            plugin,
-          };
-        }
+        plugin.bootstrapRan = true;
+        return {
+          plugin,
+        };
       }
     },
     {
@@ -43,11 +41,10 @@ const plugin = {
       description: `A description of what this hook does.`,
       priority: 50,
       run: async ({ plugin, routes }) => {
-        if(plugin.init){
-          return {
-            plugin,
-          };
-        }
+        // plugin.bootstrapRan will alaways be true in this example because `bootstrap` runs before `request`. 
+        return {
+          plugin,
+        };
       }
     },
   ],
