@@ -25,8 +25,8 @@ const plugin = {
       priority: 50,
       run: async ({ plugin, routes }) => {
 
-        // all props and mutations are detailed here: https://github.com/Elderjs/elderjs/blob/master/src/hookInterface/hookInterface.ts
-        // if you are looking for details on what a prop or mutation represents you can read this: https://github.com/Elderjs/elderjs/blob/master/src/hookInterface/hookEntityDefinitions.ts
+        // all props and mutations are detailed here: https://github.com/Elderjs/elderjs/blob/master/src/hooks/hookInterface.ts
+        // if you are looking for details on what a prop or mutation represents you can read this: https://github.com/Elderjs/elderjs/blob/master/src/hooks/hookEntityDefinitions.ts
 
         // here is how you'd read the init property set in the init() function
         plugin.bootstrapRan = true;
