@@ -1,6 +1,7 @@
 const plugin = {
   name: 'elderjs-plugin-your-plugin',
   description: `[copy and paste the start of your readme]`,
+  minimumElderjsVersion: "1.4.13", // you can leave blank. 
   init: (plugin) => {
     // this is a sync function that runs on plugin initialization.
     // if you need async, it is recommended that you extract the async logic to run on the 'bootstrap' hook.
@@ -51,6 +52,7 @@ const plugin = {
   config: { // here is where you set the default configs for your plugin. These are merged with the configs found in the user's elder.config.js file.
     doMagic: true,
   },
+  anotherProp: {} // this will be available as a named export. :) Useful for exposing plugin internals. 
 };
 
 module.exports = plugin;
